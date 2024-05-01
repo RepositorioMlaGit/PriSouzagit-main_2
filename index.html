@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <title>Studio Carvalho</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar start -->
+    <div class="container-fluid sticky-top px-0">
+        <div class="container-fluid topbar d-none d-lg-block">
+            <div class="container px-0">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="d-flex flex-wrap">
+                            <a href="https://api.whatsapp.com/send/?phone=5511989860054&text=Studio+Carvalho+&type=phone_number&app_absent=0"
+                                class="me-4 text-light"><i class="fas fa-phone-alt text-primary me-2"></i>Clique Aqui
+                                para falar com o Studio Carvalho</a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <a href="https://www.instagram.com/thammyres.nails?igsh=cXJmODN6cDh0dHZj"
+                                class="me-3 btn-square border rounded-circle nav-fill"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-light">
+            <div class="container px-0">
+                <nav class="navbar navbar-light navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand">
+                        <h2 class="text-primary display-6">Studio Carvalho</h2>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse bg-light py-3" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto border-top">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="service.html" class="nav-item nav-link">Nossos Serviços</a>
+                            <a href="contact.html" class="nav-item nav-link">Nossos Contatos</a>
+                            <a href="about.html" class="nav-item nav-link">Sobre Nós</a>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h2 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-50 mx-auto d-flex">
+                        <input type="search" class="form-control p-2" placeholder="keywords"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text p-2"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid carousel-header px-0">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="cab_carrocel1_a.jpeg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-primary text-uppercase mb-3">Studio Carvalho - Thammires.Nails</h4>
+                            <h3 class="display-1 text-capitalize text-dark mb-3">Cabeleireiro</h3>
+                            <p class="mx-md-5 fs-4 px-4 mb-5 text-dark">Corte, Tintura, Progressiva, Botox, Escova,
+                                Hidratação, Cronogramas Capilar e muito mais.</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <a class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5"
+                                    href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0WSamq_WSQiix9zd7tyfoj2EmwmSyb0koMNk9gcSHfs6drk07yhWJGxWVczHEobmyoXXz_h1aE?gv=true"
+                                    style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+                                    <!-- end Google Calendar Appointment Scheduling -->Agende Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="manic.carrocel1_a.jpeg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-primary text-uppercase mb-3">Studio Carvalho - Thammires.Nails</h4>
+                            <h3 class="display-3 text-capitalize text-dark mb-3">Manicure e Pedicure</h3>
+                            <p class="mx-md-5 fs-4 px-4 mb-5 text-dark">Pintura, Cutilagem, Alongamentos, Unhas em gel e
+                                muito mais.
+                            </p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <a class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5"
+                                    href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0WSamq_WSQiix9zd7tyfoj2EmwmSyb0koMNk9gcSHfs6drk07yhWJGxWVczHEobmyoXXz_h1aE?gv=true"
+                                    style="border: 0" width="100%" height="600" frameborder="0"></iframe>Agende
+                                    Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="alongamento_carrocel1.jpg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-primary text-uppercase mb-3">Studio Carvalho - Thammires.Nails</h4>
+                            <h1 class="display-3 text-capitalize text-dark mb-3">Alongamento de Cilios</h1>
+                            <p class="mx-md-5 fs-4 px-4 mb-5 text-dark">Volume Brasileiro, Egpício, Sirena, Light,
+                                Fio-a-fio</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <a class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5"
+                                    href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0WSamq_WSQiix9zd7tyfoj2EmwmSyb0koMNk9gcSHfs6drk07yhWJGxWVczHEobmyoXXz_h1aE?gv=true"
+                                    style="border: 0" width="100%" height="600" frameborder="0"></iframe>Agende
+                                    Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid services py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 800px;">
+                <p class="fs-4 text-uppercase text-center text-primary">Nossos Serviços</p>
+                <h1 class="display-3"></h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <div class="services-content text-end">
+                                    <h3>Cabelos</h3>
+                                    <p>Realizamos todos os tipos de corte, tintura e diversos tratamento de alisamento
+                                        como: progressiva, botox, escova. Penteados para festas. Hidratação e cronograma
+                                        capilar.</p>
+                                    <a href="#"
+                                        class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
+                                        aqui</a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/nossosserv.cabel1.jpeg" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img\nossosserv.manic1.png" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="services-content text-start">
+                                    <h3>Manicure</h3>
+                                    <p>Trabalhamos com esmaltação, adesivos, francesinha, aplicação de unhas em gel,
+                                        unhas no mold, fibra de vidro, banho de gel. Realizamos a manutenção, blindagem,
+                                        tratamento de unhas quebradas.</p>
+                                    <a href="#"
+                                        class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
+                                        aqui</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <div class="services-content text-end">
+                                    <h3>Pedicure</h3>
+                                    <p>Trabalhamos com esmaltação, técnicas de escalda pés + pedicure, plástica dos pés
+                                        + pedicure,
+                                        SPA dos pés + pedicure que proporciona máxima hidratação.</p>
+                                    <a href="#"
+                                        class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
+                                        aqui</a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/nossoserv.pedic1.png" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/nossosserv.cilios1.png" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="services-content text-start">
+                                    <h3>Cilios</h3>
+                                    <p>Aplicação de Cilios, volume brasileiro e em 3D, volume egípcio e em 5D, volume
+                                        light e mega volume. Utilizamos tufos de
+                                        seda tradicionais, glamour e magic. Manutenção de 15 ou 25 dias e remoção.
+                                    </p>
+                                    <a href="#"
+                                        class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
+                                        aqui</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <div class="services-content text-end">
+                                    <h3>Limpeza de Pele</h3>
+                                    <p>Limpeza de pele, Hidratação facial, Esfoliação, Máscara refrescante.</p>
+                                    <a href="#"
+                                        class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
+                                        aqui</a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/nossosserv.limp1.jpg" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/nossosserv.sobran1.png" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="services-content text-start">
+                                    <h3>Sobrancelhas</h3>
+                                    <p> Procedimentos de Design de Sobrancelhas com técinca especializadas em design
+                                        estrategico, design com Henna.</p>
+                                    <a href="#"
+                                        class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
+                                        aqui</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid about py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5">
+                    <div class="video">
+                        <img src="#" class="img-fluid rounded" alt="">
+                        <div class="position-absolute rounded border-5 border-top border-start border-white"
+                            style="bottom: 0; right: 0;">
+                            <img src="img/sobrenos.certif1.png" class="img-fluid rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <p class="fs-4 text-uppercase text-primary">Sobre Nós</p>
+                    <h1 class="display-4 mb-4">Conheça nosso salão e um pouco mais sobre nós.</h1>
+                    <p class="mb-4"> Olá, eu sou a Thamyres Carvalho e sou proprietária do salão Studio Carvalho em
+                        parceria com a minha irmã Thays Carvalho.
+                        Tivemos a ideia de abrir um salão de beleza para ajudar as nossas amigas e clientes a se
+                        sentirem sempre mais bonitas e
+                        mais proderosas. Proporcionamos os melhores procedimentos com muita qualidade, respeito e todo
+                        cuidado para que todas as
+                        mulheres que confiam em nosso trabalho se sintam cada vez mais lindas e com a alto estima sempre
+                        elevada.
+                        Começamos a nos especilializar com os melhores cursos por volta do ano de 2010 e desde então,
+                        sempre procuramos nos
+                        atualizar com os mais avançados e modernos metodos de procedimentos e assim trazer sempre o
+                        melhor serviço para as
+                        nossas clientes. </p>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-center">
+                                <i class="fab fa-gitkraken fa-3x text-primary"></i>
+                                <div class="ms-4">
+                                    <h5 class="mb-2">Especialidades</h5>
+                                    <p class="mb-0">Nossa especialidade é cabelo, unhas e cilios. Venha conferir nosso
+                                        trabalho.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-gift fa-3x text-primary"></i>
+                                <div class="ms-4">
+                                    <h5 class="mb-2">Mais Procurados</h5>
+                                    <p class="mb-0">Nossas clientes mais buscam por alizamento de cabelo, alongamento de
+                                        unha e alongamento de cilios.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="my-4">Sempre buscamos os melhores procedimentos e materiais.
+                    </p>
+                    <p class="mb-4">Nossas clientes confiam e indicam nosso trabalho.
+                    </p>
+                    <a href="https://www.instagram.com/thammyres.nails?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">Conheça o nosso
+                        trabalho.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Video -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                            allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Appointment Start -->
+    <div class="container-fluid appointment py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="appointment-form p-5">
+                        <p class="fs-4 text-uppercase text-primary">SAIBA COMO AGENDAR SEU HORÁRIO</p>
+                        <h1 class="display-8 mb-4 text-white">Duvidas</h1>
+                        <form>
+                            <div class="row gy-3 gx-4">
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control py-3 border-white bg-transparent text-white"
+                                        placeholder="Nome Completo">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="email" class="form-control py-3 border-white bg-transparent text-white"
+                                        placeholder="E-mail">
+                                </div>
+                                <div class="col-lg-6">
+                                    <select class="form-select py-3 border-white bg-transparent"
+                                        aria-label="Default select example">
+                                        <option selected>O que deseja?</option>
+                                        <option value="1">Cabelo</option>
+                                        <option value="2">Manicure e Pedicure</option>
+                                        <option value="3">Cilios</option>
+                                        <option value="4">Limpeza de Pele</option>
+                                        <option value="5">Sobrancelhas</option>
+                                        <option value="6">Outros</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="date" class="form-control py-3 border-white bg-transparent">
+                                </div>
+                                <div class="col-lg-12">
+                                    <textarea class="form-control border-white bg-transparent text-white" name="text"
+                                        id="area-text" cols="30" rows="5" placeholder="Comentários"></textarea>
+                                </div>
+                                <div class="col-lg-12">
+                                    <button type="button"
+                                        class="btn btn-primary btn-primary-outline-0 w-100 py-3 px-5">AGENDAR</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="appointment-time p-5">
+                        <h1 class="display-5 mb-4">Horários de funcionamento</h1>
+                        <div class="d-flex justify-content-between fs-5 text-white">
+                            <p>Terça-Feira:</p>
+                            <p>10:00h – 22:00h</p>
+                        </div>
+                        <div class="d-flex justify-content-between fs-5 text-white">
+                            <p>Quarta-Feira:</p>
+                            <p>10:00h – 22:00h</p>
+                        </div>
+                        <div class="d-flex justify-content-between fs-5 text-white">
+                            <p>Quinta-Feira:</p>
+                            <p>10:00h – 22:00h</p>
+                        </div>
+                        <div class="d-flex justify-content-between fs-5 text-white">
+                            <p>Sexta-Feira:</p>
+                            <p>10:00h – 22:00h</p>
+                        </div>
+                        <div class="d-flex justify-content-between fs-5 text-white">
+                            <p>Sábado:</p>
+                            <p>10:00h – 22:00h</p>
+                        </div>
+                        <div class="d-flex justify-content-between fs-5 text-white mb-4">
+                            <p>Domingo:</p>
+                            <p>10:00h – 22:00h</p>
+                        </div>
+                        <div class="d-flex justify-content-between fs-5 text-white mb-4">
+                            <p>Segunda-feira:</p>
+                            <p>Fechado</p>
+                        </div>
+                        <p class="text-dark">Confira os horários de atendimento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter Start -->
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- Gallery Start -->
+    <div class="container-fluid gallery py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+                <p class="fs-4 text-uppercase text-primary">Nossa Galeria</p>
+                <h5 class="display-6 mb-4">Veja um pouco mais do nosso trabalho</h5>
+            </div>
+            <div class="tab-class text-center">
+                <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+                    <li class="nav-item">
+                        <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active"
+                            data-bs-toggle="pill" href="#tab-1">
+                            <span class="text-dark" style="width: 150px;">Toda a Galeria</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex py-2 mx-3 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                            href="#tab-2">
+                            <span class="text-dark" style="width: 150px;">Cabelos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                            href="#tab-3">
+                            <span class="text-dark" style="width: 150px;">Unhas</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                            href="#tab-4">
+                            <span class="text-dark" style="width: 150px;">Cilios</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill"
+                            href="#tab-5">
+                            <span class="text-dark" style="width: 150px;">Sobrancelhas</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-5">
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/cabeleireiro1.png" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cabelos</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/cabeleireiro1.png" data-lightbox="Gallery-1"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/unhas1.png" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Unhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/unhas1.png" data-lightbox="Gallery-2" class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/cilios1.png" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cilios</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/cilios1.png" data-lightbox="Gallery-3" class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/sobrancelha1.png" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Sobrancelhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/sobrancelha1.png" data-lightbox="Gallery-4"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/cabeleireiro2.png" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cabelos</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/cabeleireiro2.png" data-lightbox="Gallery-5"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/unhas2.png" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Unhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/unhas2.png" data-lightbox="Gallery-6" class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/cilios2.png" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cilios</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/cilios2.png" data-lightbox="Gallery-7" class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/sobrancelha2.png" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Sobrancelhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/sobrancelha2.png" data-lightbox="Gallery-8"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-4">
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-9.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cabelos</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-9.jpg" data-lightbox="Gallery-9" class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-10.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cabelos</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-10.jpg" data-lightbox="Gallery-10"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-5.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cabelos</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-5.jpg" data-lightbox="Gallery-11"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-1.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cabelos</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-1.jpg" data-lightbox="Gallery-12"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-3" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-4">
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-11.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Unhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-11.jpg" data-lightbox="Gallery-13"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-12.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Unhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-12.jpg" data-lightbox="Gallery-14"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-2.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Unhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-2.jpg" data-lightbox="Gallery-15"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-6.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Unhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-6.jpg" data-lightbox="Gallery-16"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-4" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-4">
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-13.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cilios</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-13.jpg" data-lightbox="Gallery-17"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-2.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cilios</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-2.jpg" data-lightbox="Gallery-18"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-3.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cilios</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-3.jpg" data-lightbox="Gallery-19"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-7.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Cilios</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-7.jpg" data-lightbox="Gallery-20"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-5" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="row g-4">
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-4.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Sobrancelhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-4.jpg" data-lightbox="Gallery-21"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-6.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Sobrancelhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-6.jpg" data-lightbox="Gallery-22"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-8.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Sobrancelhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-8.jpg" data-lightbox="Gallery-23"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-14.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Sobrancelhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-14.jpg" data-lightbox="Gallery-24"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-4.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Sobrancelhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-4.jpg" data-lightbox="Gallery-25"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="gallery-img">
+                                            <img class="img-fluid rounded w-100" src="img/gallery-8.jpg" alt="">
+                                            <div class="gallery-overlay p-4">
+                                                <h4 class="text-secondary">Sobrancelhas</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="img/gallery-8.jpg" data-lightbox="Gallery-26"
+                                                    class="my-auto"><i
+                                                        class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery End -->
+
+    <!-- Team Start -->
+    <div class="container-fluid team py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+                <p class="fs-4 text-uppercase text-primary">Nossas Profissionais</p>
+                <h5 class="display-5 mb-4">Siga a gente nas Redes Sociais</h5>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-10 col-lg-12 col-xl-5">
+                    <div class="team-item">
+                        <div class="team-img rounded-top">
+                            <img src="img/team-1.png" class="img-fluid w-100 rounded-top bg-light" alt="">
+                        </div>
+                        <div class="team-text rounded-bottom text-center p-4">
+                            <h4 class="text-white">Thammires Carvalho </h4>
+                            <p class="mb-0 text-white"></p>
+                        </div>
+                        <div class="team-social">
+                            <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle"
+                                href="https://l.instagram.com/?u=https%3A%2F%2Fwww.instagram.com%2Fthammyres.nails%3Figsh%3DN2J3dGtqa2I4dnZp%26utm_source%3Dqr&e=AT24bqViIo-N4YwiAxemK2hqaZzCNBAh1jexj5MHDlqGv2tTthQ77yCoQyY5O9IkdoB5zZznBvfhkwOsz7Ou3b6Jc3oJ67JVgn6P5gasvIf_V3vqHJCjtg"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 col-lg-12 col-xl-4">
+                    <div class="team-item">
+                        <div class="team-img rounded-top">
+                            <img src="img/thayscarvalho.png" class="img-fluid w-100 rounded-top bg-light" alt="">
+                        </div>
+                        <div class="team-text rounded-bottom text-center p-4">
+                            <h4 class="text-white">Thays Carvalho</h4>
+                            <p class="mb-0 text-white">Um pouco mais de confiança em você mesmo e tudo se torna mais
+                                claro, fácil e atingível. 💕</p>
+                        </div>
+                        <div class="team-social">
+                            <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2"
+                                href="https://x.com/ThaysCarvalho09"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2"
+                                href="https://www.facebook.com/thays.carvalhodesousa/"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle"
+                                href="https://www.instagram.com/thays.carvalho9?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row g-4 align-items-center">
+                <div class="col-12">
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
+                                <i class="fas fa-map-marker-alt fa-2x text-primary me-4"></i>
+                                <div>
+                                    <h3>Nosso Endereço</h3>
+                                    <p class="mb-0">R. Clemente Mares da Silva, 860 - Jardim Silvia, Francisco Morato -
+                                        SP</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
+                                <i class="fas fa-envelope fa-2x text-primary me-4"></i>
+                                <div>
+                                    <h4>Nosso E-Mail </h4>
+                                    <p class="mb-0">e-mail: sousa.tc@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
+                                <i class="fa fa-phone-alt fa-2x text-primary me-4"></i>
+                                <div>
+                                    <h4>Nossos Contatos</h4>
+                                    <p class="mb-0">(11) 940329399 (Thais) <br>(11) 989860054 (Thammy)</br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+
+                    <div class=" text-center p-4 rounded-bottom bg-primary">
+                        <h4 class="text-white fw-bold">Redes Sociais</h4>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a href="#" class="btn btn-light btn-light-outline-0 btn-square rounded-circle me-3"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-light btn-light-outline-0 btn-square rounded-circle"><i
+                                    class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-4 text-center text-md-start mb-md-0">
+                    <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Studio
+                            carvalho</a>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-center">
+
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-end text-white">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a
+                        class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square rounded-circle back-to-top"><i
+            class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
