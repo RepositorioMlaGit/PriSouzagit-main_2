@@ -142,28 +142,23 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="contact-form rounded p-5">
-                        <form>
-                            <h4 class="display-8 mb-4">Saiba como agendar seu horário</h4>
-                            <div class="row gx-4 gy-3">
-                                <div class="col-xl-6">
-                                    <input type="text" class="form-select py-3 border-white bg-transparent"
-                                        placeholder="Nome Completo">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+
+                            <input type="hidden" name="access_key" value="9f6fe5e0-f63a-48ca-a615-e874e5c90eb8">
+                        
+                            
+                            <div class="row gy-3 gx-4">
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control py-3 border-white bg-transparent text-white"
+                                        placeholder="Nome Completo" name="name" required>
                                 </div>
-                                <div class="col-xl-6">
-                                    <input type="email" class="form-select py-3 border-white bg-transparent"
-                                        placeholder="E-Mail">
+                                <div class="col-lg-6">
+                                    <input type="email" class="form-control py-3 border-white bg-transparent text-white"
+                                        placeholder="E-mail" name="email" required>
                                 </div>
-                                <div class="col-lg-8">
-                                    <select class="form-select py-3 border-white bg-transparent"
-                                        aria-label="Default select example">
-                                        <option selected>O que deseja?</option>
-                                        <option value="1">Cabelo</option>
-                                        <option value="2">Manicure e Pedicure</option>
-                                        <option value="3">Cilios</option>
-                                        <option value="4">Limpeza de Pele</option>
-                                        <option value="5">Sobrancelhas</option>
-                                        <option value="6">Outros</option>
-                                    </select>
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control py-3 border-white bg-transparent text-white"
+                                    placeholder="Assunto" name="subject" />
                                 </div>
                                 <div class="col-lg-6">
                                     <input type="date" class="form-control py-3 border-white bg-transparent">
@@ -172,8 +167,11 @@
                                     <textarea class="form-control border-white bg-transparent text-white" name="text"
                                         id="area-text" cols="30" rows="5" placeholder="Comentários"></textarea>
                                 </div>
+
+                                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
                                 <div class="col-lg-12">
-                                    <button type="button"
+                                    <button type="submit"
                                         class="btn btn-primary btn-primary-outline-0 w-100 py-3 px-5">AGENDAR</button>
                                 </div>
                             </div>
