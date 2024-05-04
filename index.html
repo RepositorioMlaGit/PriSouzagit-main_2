@@ -207,7 +207,7 @@
                                     <p>Realizamos todos os tipos de corte, tintura e diversos tratamento de alisamento
                                         como: progressiva, botox, escova. Penteados para festas. Hidratação e cronograma
                                         capilar.</p>
-                                    <a href="#"
+                                    <a href="#gallery"
                                         class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
                                         aqui</a>
                                 </div>
@@ -234,7 +234,7 @@
                                     <p>Trabalhamos com esmaltação, adesivos, francesinha, aplicação de unhas em gel,
                                         unhas no mold, fibra de vidro, banho de gel. Realizamos a manutenção, blindagem,
                                         tratamento de unhas quebradas.</p>
-                                    <a href="#"
+                                    <a href="#gallery"
                                         class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
                                         aqui</a>
                                 </div>
@@ -251,7 +251,7 @@
                                     <p>Trabalhamos com esmaltação, técnicas de escalda pés + pedicure, plástica dos pés
                                         + pedicure,
                                         SPA dos pés + pedicure que proporciona máxima hidratação.</p>
-                                    <a href="#"
+                                    <a href="#gallery"
                                         class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
                                         aqui</a>
                                 </div>
@@ -279,7 +279,7 @@
                                         light e mega volume. Utilizamos tufos de
                                         seda tradicionais, glamour e magic. Manutenção de 15 ou 25 dias e remoção.
                                     </p>
-                                    <a href="#"
+                                    <a href="#gallery"
                                         class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
                                         aqui</a>
                                 </div>
@@ -294,7 +294,7 @@
                                 <div class="services-content text-end">
                                     <h3>Limpeza de Pele</h3>
                                     <p>Limpeza de pele, Hidratação facial, Esfoliação, Máscara refrescante.</p>
-                                    <a href="#"
+                                    <a href="#gallery"
                                         class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
                                         aqui</a>
                                 </div>
@@ -320,7 +320,7 @@
                                     <h3>Sobrancelhas</h3>
                                     <p> Procedimentos de Design de Sobrancelhas com técinca especializadas em design
                                         estrategico, design com Henna.</p>
-                                    <a href="#"
+                                    <a href="#gallery"
                                         class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Veja mais
                                         aqui</a>
                                 </div>
@@ -426,27 +426,23 @@
                     <div class="appointment-form p-5">
                         <p class="fs-4 text-uppercase text-primary">SAIBA COMO AGENDAR SEU HORÁRIO</p>
                         <h1 class="display-8 mb-4 text-white">Duvidas</h1>
-                        <form>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+
+                            <input type="hidden" name="access_key" value="9f6fe5e0-f63a-48ca-a615-e874e5c90eb8">
+                        
+                            
                             <div class="row gy-3 gx-4">
                                 <div class="col-lg-6">
                                     <input type="text" class="form-control py-3 border-white bg-transparent text-white"
-                                        placeholder="Nome Completo">
+                                        placeholder="Nome Completo" name="name" required>
                                 </div>
                                 <div class="col-lg-6">
                                     <input type="email" class="form-control py-3 border-white bg-transparent text-white"
-                                        placeholder="E-mail">
+                                        placeholder="E-mail" name="email" required>
                                 </div>
                                 <div class="col-lg-6">
-                                    <select class="form-select py-3 border-white bg-transparent"
-                                        aria-label="Default select example">
-                                        <option selected>O que deseja?</option>
-                                        <option value="1">Cabelo</option>
-                                        <option value="2">Manicure e Pedicure</option>
-                                        <option value="3">Cilios</option>
-                                        <option value="4">Limpeza de Pele</option>
-                                        <option value="5">Sobrancelhas</option>
-                                        <option value="6">Outros</option>
-                                    </select>
+                                    <input type="text" class="form-control py-3 border-white bg-transparent text-white"
+                                    placeholder="Assunto" name="subject" />
                                 </div>
                                 <div class="col-lg-6">
                                     <input type="date" class="form-control py-3 border-white bg-transparent">
@@ -455,8 +451,11 @@
                                     <textarea class="form-control border-white bg-transparent text-white" name="text"
                                         id="area-text" cols="30" rows="5" placeholder="Comentários"></textarea>
                                 </div>
+
+                                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
                                 <div class="col-lg-12">
-                                    <button type="button"
+                                    <button type="submit"
                                         class="btn btn-primary btn-primary-outline-0 w-100 py-3 px-5">AGENDAR</button>
                                 </div>
                             </div>
@@ -508,7 +507,7 @@
     </div>
     </div>
     <!-- Gallery Start -->
-    <div class="container-fluid gallery py-5">
+    <div id="gallery" class="container-fluid gallery py-5">
         <div class="container py-5">
             <div class="text-center mx-auto mb-5" style="max-width: 800px;">
                 <p class="fs-4 text-uppercase text-primary">Nossa Galeria</p>
